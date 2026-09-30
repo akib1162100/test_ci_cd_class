@@ -16,6 +16,8 @@ class CalculatorTests(unittest.TestCase):  # Group backend behavior checks.
         self.assertEqual(power(2, 3), 8)  # Positive exponent.
         self.assertEqual(power(-2, 3), -8)  # Negative base with an odd exponent.
 
+    def test_add(self):
+        self.assertEqual(add(2, 3), 5)  # Positive exponent.
 
 if __name__ == "__main__":  # Run tests only when this file is executed directly.
     unittest.main()  # Collect tests, print results, and exit with a failure code if needed.

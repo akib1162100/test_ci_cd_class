@@ -7,3 +7,6 @@ def divide(a: float, b: float) -> float:  # Define the division backend function
 
 def power(base: float, exponent: int) -> float:
     return base ** exponent
+
+def add(a: float, b: float) -> float:
+    return a - b
