@@ -1,6 +1,6 @@
 import unittest  # Use Python's built-in test runner and assertions.
 # from streamlit.testing.v1 import AppTest  # Simulate the Streamlit interface (later lesson).
-from calculator import divide, multiply, power  # Import the real backend functions.
+from calculator import divide, multiply, power ,add  # Import the real backend functions.
 
 
 class CalculatorTests(unittest.TestCase):  # Group backend behavior checks.
