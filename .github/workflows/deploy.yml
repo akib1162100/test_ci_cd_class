@@ -21,7 +21,7 @@ jobs:
           python-version: '3.11'
       - name: Install dependencies
         run: |
-          pip install pytest, streamlit
+          pip install pytest streamlit
       - name: Run tests
         run: |
           python -m pytest test_calculator.py
